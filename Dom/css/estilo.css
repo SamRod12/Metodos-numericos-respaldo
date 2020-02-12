@@ -1,0 +1,24 @@
+.boton{
+    width: 120px;
+    border: solid 2px rgb(0, 106, 148);
+    border-radius: 10px;
+}
+.boton:hover{
+    background-color: rgb(177, 177, 177);
+    color:black;
+    transition: 0.5s;
+    
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background: #22c199;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.negro{
+    background: black;
+}

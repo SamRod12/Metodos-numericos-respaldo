@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ejercicio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="caja">
+                <button id="miboton">JSON</button>
+                <p id="demo"></p>
+            </div>
+        </div>
+<script>
+    document.getElementById("miboton").addEventListener("click",json);
+    function json(){
+        var txt = '{"name":"Leonardo Samuel", "age":20, "height":"1.78"}'
+        var obj = JSON.parse(txt);
+        document.getElementById("demo").innerHTML = JSON.stringify(obj);
+    }
+
+</script>
+    </body>
+</html>
